@@ -1,7 +1,9 @@
 import { Box } from "@mui/material";
-import Hero from "../../components/hero";
-import Companies from "../../components/Companies";
-import Services from "../../components/services";
+import Hero from "src/components/hero";
+import Companies from "src/components/Companies";
+import Services from "src/components/services";
+import Brands from "src/components/Brands";
+import Footer from "src/components/Footer";
 
 const Home = () => {
   return (
@@ -31,6 +33,8 @@ const Home = () => {
       </Box> */}
 
       <Services />
+      <Brands />
+      <Footer />
     </Box>
   );
 };

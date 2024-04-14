@@ -3,7 +3,15 @@ import { Detail, Title } from "./style";
 
 const Services = () => {
   return (
-    <Box sx={{ display: "flex", width: "70%", mt: 15 }}>
+    <Box
+      sx={{
+        display: "flex",
+        width: "70%",
+        mt: 15,
+        mb: 15,
+        alignItems: "center",
+      }}
+    >
       <Box sx={{ width: "60%", mr: 5 }}>
         <Typography
           sx={{ fontFamily: "inter", fontWeight: "400", fontSize: 50 }}
