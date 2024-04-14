@@ -31,7 +31,6 @@ const Home = () => {
       </Box> */}
 
       <Services />
-      <Services />
     </Box>
   );
 };

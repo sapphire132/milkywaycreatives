@@ -1,9 +1,10 @@
 import { Box, Typography } from "@mui/material";
+import { Detail, Title } from "./style";
 
 const Services = () => {
   return (
     <Box sx={{ display: "flex", width: "70%", mt: 15 }}>
-      <Box sx={{ width: "50%" }}>
+      <Box sx={{ width: "60%", mr: 5 }}>
         <Typography
           sx={{ fontFamily: "inter", fontWeight: "400", fontSize: 50 }}
         >
@@ -14,45 +15,25 @@ const Services = () => {
 
       <Box>
         <Box>
-          <Typography
-            sx={{ fontFamily: "inter", fontWeight: 600, fontSize: 20 }}
-          >
-            Brand Identity
-          </Typography>
-          <Typography>
+          <Title>Brand Identity</Title>
+
+          <Detail>
             {" "}
             From crafting a captivating brand story to designing a logo that's
             out of this world, we help you build a brand that stands out in the
             Ethiopian marketplace.{" "}
-          </Typography>
+          </Detail>
         </Box>
 
-        <Box sx={{ mt: 5 }}>
-          <Typography
-            sx={{ fontFamily: "inter", fontWeight: 600, fontSize: 20 }}
-          >
-            Brand Identity
-          </Typography>
-          <Typography>
-            {" "}
-            From crafting a captivating brand story to designing a logo that's
-            out of this world, we help you build a brand that stands out in the
-            Ethiopian marketplace.{" "}
-          </Typography>
-        </Box>
+        <Box sx={{ mt: 2 }}>
+          <Title>Brand Identity</Title>
 
-        <Box sx={{ mt: 5 }}>
-          <Typography
-            sx={{ fontFamily: "inter", fontWeight: 600, fontSize: 20 }}
-          >
-            Brand Identity
-          </Typography>
-          <Typography>
+          <Detail>
             {" "}
             From crafting a captivating brand story to designing a logo that's
             out of this world, we help you build a brand that stands out in the
             Ethiopian marketplace.{" "}
-          </Typography>
+          </Detail>
         </Box>
       </Box>
     </Box>
