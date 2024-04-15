@@ -11,10 +11,11 @@ const Hero = () => {
         justifyContent: "center",
         flexDirection: "column",
         alignItems: "center",
-        pt: 10,
-        pb: 10,
+        pt: { xs: 5, md: 10 },
+        pb: { xs: 5, md: 10 },
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
+        backgroundPosition: "center",
         "&::before": {
           content: '""',
           position: "absolute",
@@ -31,8 +32,9 @@ const Hero = () => {
           position: "relative",
           fontFamily: "inter",
           fontWeight: 200,
-          fontSize: 100,
+          fontSize: { xs: 40, md: 100 },
           zIndex: 1,
+          // width: { xs: "80%", md: "" },
         }}
       >
         Milkyway Creatives!
@@ -43,9 +45,9 @@ const Hero = () => {
           position: "relative",
           fontFamily: "inter",
           fontWeight: 200,
-          fontSize: 17,
+          fontSize: { xs: 15, md: 17 },
           zIndex: 1,
-          width: "50%",
+          width: { xs: "80%", md: "50%" },
           mt: 4,
           textAlign: "center",
         }}

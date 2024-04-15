@@ -6,15 +6,20 @@ const Services = () => {
     <Box
       sx={{
         display: "flex",
+        flexDirection: { xs: "column", md: "row" },
         width: "70%",
         mt: 15,
         mb: 15,
         alignItems: "center",
       }}
     >
-      <Box sx={{ width: "60%", mr: 5 }}>
+      <Box sx={{ width: { xs: "90%", md: "60%" } }}>
         <Typography
-          sx={{ fontFamily: "inter", fontWeight: "400", fontSize: 50 }}
+          sx={{
+            fontFamily: "inter",
+            fontWeight: "400",
+            fontSize: { xs: 35, md: 50 },
+          }}
         >
           {" "}
           Crafting the brand you've always been dreaming!

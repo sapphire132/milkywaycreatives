@@ -3,23 +3,23 @@ import { Box, Grid, Typography } from "@mui/material";
 const brands = [
   {
     name: "Artios",
-    logo: "../src/assets/img/projects/artios.jpg",
+    logo: "src/assets/img/projects/artios.jpg",
     overlayColor: "rgba(50, 0, 0, 0.5)", // Red color overlay with 50% opacity
   },
   {
     name: "seed codes",
-    logo: "../src/assets/img/projects/ducka.jpg",
+    logo: "src/assets/img/projects/ducka.jpg",
     overlayColor: "rgba(0, 50, 0, 0.5)", // Green color overlay with 50% opacity
   },
 
   {
     name: "seed codes",
-    logo: "../src/assets/img/projects/seedCodes.jpg",
+    logo: "src/assets/img/projects/seedCodes.jpg",
     overlayColor: "rgba(0, 0, 0, 0.5)", // Green color overlay with 50% opacity
   },
   {
     name: "Artios",
-    logo: "../src/assets/img/projects/milkyway.jpg",
+    logo: "src/assets/img/projects/milkyway.jpg",
     overlayColor: "rgba(50, 0, 0, 0.5)", // Red color overlay with 50% opacity
   },
   // Add more brand objects with their respective overlay colors here if needed
