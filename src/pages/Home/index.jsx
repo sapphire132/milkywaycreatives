@@ -4,6 +4,9 @@ import Companies from "src/components/Companies";
 import Services from "src/components/services";
 import Brands from "src/components/Brands";
 import Footer from "src/components/Footer";
+import LogoGrid from "../Logo";
+
+import { Route, Routes } from "react-router";
 
 const Home = () => {
   return (
@@ -32,8 +35,19 @@ const Home = () => {
         <Companies />
       </Box> */}
 
-      <Services />
-      <Brands />
+      <Routes>
+        <Route path="/milkywaycreatives/logo" element={<LogoGrid />} />
+        <Route
+          path="/milkywaycreatives/"
+          element={
+            <>
+              <Services />
+              <Brands />
+            </>
+          }
+        />
+      </Routes>
+
       <Footer />
     </Box>
   );

@@ -1,25 +1,28 @@
 import { Box, Grid, Typography } from "@mui/material";
+import artiosImage from "src/assets/img/projects/artios.jpg";
+import duckaImage from "src/assets/img/projects/ducka.jpg";
+import seedCodesImage from "src/assets/img/projects/seedCodes.jpg";
+import milkywayImage from "src/assets/img/projects/milkyway.jpg";
 
 const brands = [
   {
     name: "Artios",
-    logo: "src/assets/img/projects/artios.jpg",
+    logo: artiosImage,
     overlayColor: "rgba(50, 0, 0, 0.5)", // Red color overlay with 50% opacity
   },
   {
     name: "seed codes",
-    logo: "src/assets/img/projects/ducka.jpg",
+    logo: duckaImage,
     overlayColor: "rgba(0, 50, 0, 0.5)", // Green color overlay with 50% opacity
   },
-
   {
     name: "seed codes",
-    logo: "src/assets/img/projects/seedCodes.jpg",
+    logo: seedCodesImage,
     overlayColor: "rgba(0, 0, 0, 0.5)", // Green color overlay with 50% opacity
   },
   {
     name: "Artios",
-    logo: "src/assets/img/projects/milkyway.jpg",
+    logo: milkywayImage,
     overlayColor: "rgba(50, 0, 0, 0.5)", // Red color overlay with 50% opacity
   },
   // Add more brand objects with their respective overlay colors here if needed
